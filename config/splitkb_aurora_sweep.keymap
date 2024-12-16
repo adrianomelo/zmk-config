@@ -25,28 +25,28 @@
             bindings = <&kp ESC>;
         };
 
-        combo_ralt {
+        combo_rcmd {
             timeout-ms = <50>;
             key-positions = <17 16>;
-            bindings = <&kp RALT>;
+            bindings = <&kp RIGHT_COMMAND>;
         };
 
-        combo_lalt {
+        combo_lcmd {
             timeout-ms = <50>;
             key-positions = <11 12>;
-            bindings = <&kp LALT>;
+            bindings = <&kp LEFT_COMMAND>;
         };
 
-        combo_lgui {
+        combo_loption {
             timeout-ms = <50>;
             key-positions = <12 13>;
-            bindings = <&kp LGUI>;
+            bindings = <&kp LEFT_ALT>;
         };
 
-        combo_rgui {
+        combo_roption {
             timeout-ms = <50>;
             key-positions = <17 18>;
-            bindings = <&kp RGUI>;
+            bindings = <&kp RIGHT_ALT>;
         };
 
         combo_rcontrol {
@@ -72,6 +72,11 @@
         combo_toggle1 {
             bindings = <&sl 1>;
             key-positions = <5 6>;
+        };
+
+        combo_layer2 {
+            bindings = <&sl 2>;
+            key-positions = <6 7>;
         };
     };
 
