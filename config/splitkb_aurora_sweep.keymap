@@ -70,12 +70,12 @@
         };
 
         combo_toggle1 {
-            bindings = <&sl 1>;
+            bindings = <&tog 2>;
             key-positions = <5 6>;
         };
 
         combo_layer2 {
-            bindings = <&sl 2>;
+            bindings = <&tog 2>;
             key-positions = <6 7>;
         };
     };
