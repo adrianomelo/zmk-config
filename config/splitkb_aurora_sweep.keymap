@@ -99,7 +99,7 @@
 
         prog_layer {
             bindings = <
-&trans         &trans            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE     &trans            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE         &trans  &trans  &trans  &trans  &kp TILDE
 &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND    &trans  &trans  &trans  &trans  &kp SQT
 &trans         &trans            &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EQUAL        &trans  &trans  &trans  &trans  &kp BACKSLASH
 &trans         &trans                                                                                                  &trans  &kp RIGHT_SHIFT
@@ -112,6 +112,15 @@
 &kp NUMBER_6  &kp N7  &kp N8    &kp N9     &kp N0    &trans  &trans        &trans    &trans  &trans
 &trans        &trans  &kp LEFT  &kp RIGHT  &trans    &trans  &kp UP_ARROW  &kp DOWN  &trans  &trans
 &trans        &trans                                                                 &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans        &trans
+&trans  &trans                                                    &kp C_VOL_DN  &kp C_VOLUME_UP
             >;
         };
     };
